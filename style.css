@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(83, 83, 150),white);
+    
+}
+
+form{
+    background-color: rgb(77, 54, 133);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 1px gray;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+div > input{
+
+    height: 25px;
+    border: 1px solid rgb(68, 65, 65);
+    outline: 2px solid rgb(88, 88, 158);
+    
+}
+
+div > input:focus {
+    outline: 2px solid rgb(95, 95, 146);
+}
+
+form > input{
+    background-color: rgb(133, 78, 128);
+    width: 100%;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    height: 25px;
+    transition: background-color 5;
+}
+
+form > input :hover{
+    background-color: rgb(114, 88, 175);
+    cursor: pointer;
+}
+
+form label {
+
+}
