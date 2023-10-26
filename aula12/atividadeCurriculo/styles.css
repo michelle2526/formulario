@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    
+}
+
+form  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 0%;
+    
+
+}
+
+form{
+    width: 50%;
+    height: 50%;
+}
+ h1{
+     text-align: center;
+ }

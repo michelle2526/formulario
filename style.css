@@ -4,14 +4,13 @@
     box-sizing: border-box;
 
 }
-
-body{
+ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, rgb(83, 83, 150),white);
+    background-image: linear-gradient(to toprgb(83, 83, 150),white);
     
 }
 
@@ -55,8 +54,4 @@ form > input{
 form > input :hover{
     background-color: rgb(114, 88, 175);
     cursor: pointer;
-}
-
-form label {
-
 }

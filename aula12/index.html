@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input
+                type="nome"
+                 name="email"
+                  id="nome"
+                placeholder="nome completo"
+                autocomplete="cc-name"
+                >
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input
+                type="email"
+                 name="email"
+                 id="email"
+                placeholder="exemplo@ememplo.com"
+                autocomplete="email"
+                >
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input
+                type="telefone"
+                name="telefone"
+                id="telefone"
+                placeholder="(xx)xxxx-xxxx"
+                autocomplete="tel"
+                >
+            </div>
+            <div>
+                <label for="Rg">Rg</label>
+                <input
+                type="number"
+                name="Rg"
+                id="Rg"
+                placeholder="digite seu Rg"
+                autocomplete="cc-number"
+                >
+            </div>
+            <div>
+                <label for="dt_nascimento">Data nascimento</label>
+                <input
+                type="Date"
+                name="dt_nascimento"
+                id="dt_nascimento"
+                placeholder="dd/mm/yyyy"
+                autocomplete="bday-day"
+                >
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
