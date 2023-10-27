@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>input adicionais</legend>
+            <input type="color" value="#00ff00">
+            <input type="range" min="1" max="5">
+            <input type="file">
+            <input type="submit">
+
+            <fieldset>
+                <legend>Seletor unico</legend>
+                <label for=""> Selecione sua formaçao academica</label><br>
+                <input type="radio" id="basico" name="basico" checked>
+                <label for="basico">ensino basico</label>
+
+                <input type="radio" id="medio" name="medio">
+                <label for="medio"> Ensino medio</label>
+
+                <input type="radio" id="superio" name="superior">
+                <label for="Superior"> Ensino Superior</label><br>
+
+                <select name="cursos" id="cursos">
+                    <option value="ex">excel</option>
+                    <option value="wr">world</option>
+                    <option value="pr">power point</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Seletor multiplo</legend>
+                <label for="">excel</label>
+                   <input type="checkbox" name="excel" id="excel">
+
+                    <label for="">world</label>
+                    <input type="checkbox" name="world" id="world">
+
+                        <label for="">power point</label>
+                        <input  type="checkbox" name="power" id="power">
+                      
+                
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend> dados pre definidos</legend>
+
+                <label for="">profissao</label>
+                <input name="prosissao" id="profissao" list="profissoes">
+
+                <datalist id="profissoes">
+                    <option value="bb"> bombeiro</option>
+                    <option value="as">astronauta</option>
+                </datalist>
+                
+
+
+        </fieldset>
+        <fieldset>
+            <legend> pessoais</legend>
+            <label for="nome">nome</label>
+
+            <input 
+            type="text"
+             name="nome" 
+             id="nome"
+             riquered
+             minlength="2"
+             maxlength="5">
+        </fieldset>
+       <br><br><br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
