@@ -1,0 +1,39 @@
+@keyframes mudaCor {
+    0%{
+        color: blue;
+    }
+    20%{
+        color: blueviolet;
+    }
+
+    40%{
+        color: aqua;
+    }
+   
+    60%{
+        color: aliceblue;
+    }
+    80%{
+        color: burlywood;
+    }
+
+    100%{
+        color: yellow;
+    }
+}
+ h1:hover{
+     animation-name: mudarCor;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     /*animation-delay: 5s;*/
+ }
+
+ 
+#muniIcon{
+    display: none;
+    
+    }
+
+#menupc{
+        display: none;
+    }

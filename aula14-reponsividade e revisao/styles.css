@@ -1,0 +1,102 @@
+/*geral*/
+@import url(https://fonts.google.com/share?selection.family=Raleway:ital,wght@1,100);
+
+@media screen  and(max-width : 768px) {
+    #banner{
+        width: 100%;
+        height: 200px;
+    }
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.backgroundImg{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+:root{
+    --cor-fundo :rgb(8, 5, 14);
+    --cor-primaria : rgb(67, 20, 129);
+    --links : rgb(151, 97, 34)
+    --titulos : rgb( 216, 95, 25); 
+
+}
+
+
+
+h1,h2.h3,h4,h5,h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(rgb(63, 30, 13));
+}
+
+header,footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: var(--cor-primaria);
+
+}
+
+.imagem{
+    width: 100%;
+}
+
+#page{
+    width: 100%;
+    background-color: var(--cor-fundo);
+}
+
+a{
+    text-decoration: none;
+    color: var(--links);
+
+}
+/*header*/
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+#logo{
+    width: 120px;
+    height: 100px;
+
+}
+/*main*/
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#menuIcon{
+    display: none;
+    
+    }
+
+#banner{
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#sobreSection{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: rgb(44, 29, 112);
+    background-position-x: center;
+}
+
