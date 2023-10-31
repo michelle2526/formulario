@@ -14,9 +14,7 @@ body {
 
 }
 body{
-    background-image: url(../images/images/vestido-midi-de-guipir-violeta-01.jpg);
-    background-image: url(../images/images/vestido-midi-de-guipir-violeta-02.jpg);
-    background-image: url(../images/images/vestido-midi-de-guipir-violeta-03.jpg);
+    background-image: url(../cadastro/image/images/vestido-midi-de-guipir-violeta-02.jpg);
     width: 0%;
     height: auto;
 }
