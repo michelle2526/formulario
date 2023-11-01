@@ -3,9 +3,13 @@
     padding: 0;
     
 }
+.pagina{
+    width: 100%;
+    height: auto ;
+    
+}
 
-body {
-    font-family: 'inter', sans-serif;
+body {  font-family: 'inter', sans-serif;
     margin: 0;
     padding: 0;
     color: rgb(20, 21, 22);
@@ -24,13 +28,13 @@ form {
     display: flex;
     display: block;
     flex-direction: column;
-    background-color: rgb(230, 224, 231);
-    border-radius: 5px;
+    background-color: rgb(212, 179, 218);
+    border-radius: 8px;
     padding: 10px;
     box-shadow: 10px 10px 10px  color gray;
     gap: 10px;
-    width: 500px;
-    height: 200px;
+    width: 450px;
+    height: 80px;
 
 }
 
