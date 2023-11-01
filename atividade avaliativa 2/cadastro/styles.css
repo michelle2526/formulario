@@ -23,12 +23,14 @@ form {
     display: block;
     flex-direction: column;
     background-color: rgb(230, 224, 231);
-    border-radius: 5px;
+    outline: none;
+    border-radius: 20px;
     padding: 10px;
+
     box-shadow: 10px 10px 10px  color gray;
     gap: 10px;
-    width: 400px;
-    height: px;
+    width: 600px;
+    height: 300px;
 
 }
 
