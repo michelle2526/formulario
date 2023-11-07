@@ -3,3 +3,39 @@
     padding: 0;
 
 }
+body img{
+    display: flex;
+    justify-content: center;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin: 5px;
+    padding: 5px;
+}
+ input{
+    display: block;
+    background-color: rgb(244, 245, 247);;
+ }
+ input[type=submit]{
+    margin: 4px;
+    background-color: yellow;
+    
+ }
+p{
+    text-align: center;
+}
+
+
+fieldset{
+    text-align: center;
+    width: 40%;
+    background-color: rgb(244, 245, 247);
+}
+
+
+footer{
+    text-align: center;
+}
