@@ -1,0 +1,13 @@
+header,footer{
+    background-color: rgb(214, 203, 214);
+
+    text-align: center;
+}
+a{
+    text-align: center;
+    text-transform: lowercase
+}
+ nav a{
+    display: flex;
+    align-items: stretch;
+ }
